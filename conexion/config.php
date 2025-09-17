@@ -1,9 +1,9 @@
 <?php
-$serverName = "192.168.23.7";
+$serverName = "localhost:8080";
 $connectionOptions = array(
     "Database" => "DELIVERY2",
     "Uid" => "sa",
-    "PWD" => "Ec14312183.-"
+    "PWD" => ""
 );
 
 // Establecer conexión
