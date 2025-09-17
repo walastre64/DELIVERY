@@ -1,11 +1,10 @@
 <?PHP
 function conectate(){
 
-		//$serverName = "WILMARALASTRE\MSSQLSERVER2014"; //serverName\instanceName
-		$serverName = "DCBAHIA\MSSQLSERVER2014"; //serverName\instanceName
+		$serverName = "WILMARALASTRE\MSSQLSERVER2014"; //serverName\instanceName		
 		$connectionInfo = array( "Database"		=>"DELIVERY2",
 								 "UID"	   		=>"sa",
-								 "PWD"	   		=>"Ec14312183.-",
+								 "PWD"	   		=>"",
 								 "CharacterSet" =>"UTF-8",
 								 "TrustServerCertificate" => "yes"
 								 );
