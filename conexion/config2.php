@@ -1,10 +1,10 @@
 <?PHP
 function conectate2(){
 
-		$serverName = "192.168.23.7"; //serverName\instanceName
+		$serverName = "localhost:8080"; //serverName\instanceName
 		$connectionInfo = array( "Database"		=>"DELIVERY2",
 								 "UID"	   		=>"sa",
-								 "PWD"	   		=>"Ec14312183.-",
+								 "PWD"	   		=>"",
 								 "CharacterSet" =>"UTF-8"
 								 );
 		$conn = sqlsrv_connect( $serverName, $connectionInfo);
